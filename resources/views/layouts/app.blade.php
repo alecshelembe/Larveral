@@ -28,8 +28,9 @@
 
     <footer>
         <!-- Footer content -->
-        &copy; {{ date('Y') }} Your Company Name
+        &copy; {{ date('Y') }} <a href="https://github.com/alecshelembe/Larveral">the github repo</a>
     </footer>
+
 
     <!-- Include any JavaScript files -->
     <script src="{{ asset('js/app.js') }}"></script>
